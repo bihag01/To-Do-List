@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  padding-left: 2rem;
+   display: flex;
+  flex-direction: column; /* para apilar elementos verticalmente */
+  justify-content: center; /* centra verticalmente */
+  align-items: center; /* centra horizontalmente */
+
+}
+
+
+
+
+.visualizacion {
+    display: flex;
+    justify-content: between;
+    align-items: center;
+    width: 100%;
+}
+
+.editando {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.editando input {
+    flex: 1;
+    padding: 5px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  width: 100%;
+}
